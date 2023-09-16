@@ -1,5 +1,5 @@
-import ProductCard from "@/components/ui/ProductCard"
-import { Product } from "@/types"
+import ProductCard from '@/components/ui/ProductCard'
+import { Product } from '@/types'
 
 interface ProductListProps {
   items: Product[]
@@ -17,4 +17,4 @@ const ProductList: React.FC<ProductListProps> = ({ items }) => {
   )
 }
 
-export default ProductList;
+export default ProductList

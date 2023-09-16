@@ -9,7 +9,7 @@ import { useTheme } from 'next-themes'
 import { Sheet, SheetContent, SheetTrigger } from './ui/sheet'
 
 const Header = () => {
-  const { theme, setTheme } = useTheme();
+  const { theme, setTheme } = useTheme()
 
   const toggleTheme = () => {
     setTheme(theme === 'dark' ? 'light' : 'dark')
