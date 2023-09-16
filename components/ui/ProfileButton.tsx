@@ -13,18 +13,18 @@ const ProfileButton = () => {
     <DropdownMenu>
       <DropdownMenuTrigger>
         <Avatar>
-          <AvatarImage src="/img/shadcn.jpg" />
+          <AvatarImage src='/img/shadcn.jpg' />
           <AvatarFallback>CN</AvatarFallback>
         </Avatar>
       </DropdownMenuTrigger>
       <DropdownMenuContent>
         <DropdownMenuLabel>My Account</DropdownMenuLabel>
         <DropdownMenuSeparator />
-        <DropdownMenuItem className="cursor-pointer">Profile</DropdownMenuItem>
-        <DropdownMenuItem className="cursor-pointer">Billing</DropdownMenuItem>
-        <DropdownMenuItem className="cursor-pointer">Subscription</DropdownMenuItem>
+        <DropdownMenuItem className='cursor-pointer'>Profile</DropdownMenuItem>
+        <DropdownMenuItem className='cursor-pointer'>Billing</DropdownMenuItem>
+        <DropdownMenuItem className='cursor-pointer'>Subscription</DropdownMenuItem>
         <DropdownMenuSeparator />
-        <DropdownMenuItem className="cursor-pointer">Log Out</DropdownMenuItem>
+        <DropdownMenuItem className='cursor-pointer'>Log Out</DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   )

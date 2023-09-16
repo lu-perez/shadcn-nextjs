@@ -20,6 +20,7 @@
     "indent": ["error", 2],
     "no-multi-spaces": "error",
     "no-trailing-spaces": "error",
-    "space-before-blocks": "error"
+    "space-before-blocks": "error",
+    "jsx-quotes": [2, "prefer-single"]
   }
 }
