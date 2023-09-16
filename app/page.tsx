@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button"
 import { ShoppingBag } from "lucide-react"
 import ProductList from '@/components/ProductList'
 
-
 const products = [
   {
     id: "1",
